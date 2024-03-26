@@ -11,11 +11,16 @@ final class MainViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		print("hello")
 		configureViewController()
+		configureView()
+		print("bla-bla")
 	}
 
 	func configureViewController() {
 		print("vc configured")
+	}
+
+	func configureView() {
+		print("view configured")
 	}
 }
